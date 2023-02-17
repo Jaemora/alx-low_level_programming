@@ -4,7 +4,6 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-./betty-doc.pl main.c
 int main(void)
 {
 	int n;
