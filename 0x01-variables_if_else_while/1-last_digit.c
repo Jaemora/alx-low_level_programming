@@ -5,7 +5,7 @@
 /* betty style doc for function main goes there */
 /**
  * main - Entry point
- * Description:the last digit 
+ * Description:the last digit
  * Return: Always 0 (Success)
  */
 int main(void)
