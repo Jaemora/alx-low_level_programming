@@ -7,10 +7,10 @@
  * Return: On success 1 and On error 0 is returned.
  */
 
-int _isupper(int c)
+int _isupper(int x)
 
 {
-	if (c >= 'A' && c <= 'Z')
+	if (x >= 65 && x <= 90)
 	{
 		return (1);
 	}
