@@ -8,7 +8,12 @@
 int main(void)
 {
  int i;
-
+ /**
+ *  while (i < 10)
+ *       {
+ *              putchar(i);
+ *       }
+ */
  i = 0;
  positive_or_negative(i);
 
