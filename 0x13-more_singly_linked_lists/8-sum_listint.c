@@ -12,7 +12,7 @@ int sum = 0;
 listint_t *tp = head;
 while (tp)
 {
-plus += tp->n;
+sum += tp->n;
 tp = tp->next;
 }
 return (sum);
