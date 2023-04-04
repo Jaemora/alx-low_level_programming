@@ -7,7 +7,7 @@
 */
 int sum_listint(listint_t *head)
 {
-int plus = 0;
+int sum = 0;
 
 listint_t *tp = head;
 while (tp)
