@@ -5,6 +5,7 @@
 #include <stdlib.h>
 
 /**
+* struct listint_s - singly linked list
 * more singly linked lists
 * hope this works
 * @n: integer
