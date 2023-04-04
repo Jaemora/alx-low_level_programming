@@ -7,6 +7,8 @@
 /**
 * more singly linked lists
 * hope this works
+* @n: integer
+* @next: points to the next
 * alx
 */
 
