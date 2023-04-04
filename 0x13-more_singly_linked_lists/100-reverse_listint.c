@@ -14,7 +14,7 @@ listint_t *nx = NULL;
 while (*head)
 {
 nx = (*head)->next;
-(*head)->next = prev;
+(*head)->next = rev;
 rev = *head;
 *head = nx;
 }
