@@ -27,11 +27,11 @@ yep->next = *head;
 *head = yep;
 return (yep);
 }
-for (i = 0; temp && i < idx; i++)
+for (i = 0; tp && i < idx; i++)
 {
 if (i == idx - 1)
 {
-yep->next = temp->next;
+yep->next = tp->next;
 tp->next = yep;
 return (yep);
 }
