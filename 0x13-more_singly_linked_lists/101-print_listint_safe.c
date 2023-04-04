@@ -12,7 +12,7 @@ size_t print_listint_safe(const listint_t *head);
 */
 size_t looped_listint_len(const listint_t *head)
 {
-const listint_t tes, *rea;
+const listint_t *tes, *rea;
 size_t nodes = 1;
 
 if (head == NULL || head->next == NULL)
@@ -21,7 +21,7 @@ tes = head->next;
 rea = (head->next)->next;
 while (rea)
 {
-if (tea == rea)
+if (tes == rea)
 {
 tes = head;
 while (tes != rea)
@@ -31,7 +31,7 @@ tes = tes->next;
 rea = rea->next;
 }
 tes = tes->next;
-while (tes != hare)
+while (tes != rea)
 {
 nodes++;
 tes = tes->next;
@@ -56,7 +56,7 @@ size_t des, dex = 0;
 des = looped_listint_len(head);
 if (des == 0)
 {
-for (; head != NULL; nodes++)
+for (; head != NULL; des++)
 {
 printf("[%p] %d\n", (void *)head, head->n);
 head = head->next;
