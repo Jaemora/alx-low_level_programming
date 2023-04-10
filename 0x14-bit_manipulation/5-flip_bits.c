@@ -14,7 +14,7 @@ unsigned long int sive = n ^ m;
 
 for (z = 63; z >= 0; z--)
 {
-current = sive >> z;
+curt = sive >> z;
 if (curt & 1)
 	mount++;
 }
